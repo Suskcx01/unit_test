@@ -5,7 +5,7 @@ class Person:
         self.name.append(user_name)
         return len(self.name) - 1
 
-    def get_name(self, user_id):
+    def get_name(self, user_d):
         if user_id >= len(self.name):
             return 'There is no such user'
         else:
